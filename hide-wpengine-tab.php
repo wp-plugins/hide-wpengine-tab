@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: 		Hide WPEngine Tab
-Version: 			1.0
+Version: 			1.0.1
 Description: 		This plugin is built to make it super easy to limit access to WPengine's Access tab so that only select people can rebuild the staging environment.
 Author: 			Aaron Vanderzwan
 Author URI: 		http://www.aaronvanderzwan.com
@@ -23,8 +23,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-define( 'HWPET_VERSION', 	'1.0' );
-define( 'HWPET_SLUG', 		'codepress-admin-columns' );
+define( 'HWPET_VERSION', 	'1.0.1' );
 define( 'HWPET_URL', 		plugins_url('', __FILE__) );
 
 // only run plugin in the admin interface
@@ -43,10 +42,9 @@ function hwpet_admin_page() {
 	
 	if( isset( $_POST['HWPET_Settings'] ) ) :
 		$hwpet_settings = $_POST['user_str'];
-		$notice = 'Custom post type deleted successfully';
 		?>
 		    <div id="message" class="updated">
-		    	<p><?php _e('User exceptions updated successfully', 'cpt-plugin'); ?></p>
+		    	<p><?php _e('User exceptions updated successfully', 'hwpet-plugin'); ?></p>
 		    </div>
 		<?php
 		update_option('hwpet_settings', $_POST['user_str']);

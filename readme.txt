@@ -1,4 +1,5 @@
 === Plugin Name ===
+
 Contributors: Aaron Vanderzwan
 Donate link: http://www.aaronvanderzwan.com
 Tags: wpengine, staging, hide
@@ -9,8 +10,8 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-WPEngine is a fantastic wordpress hosting provider with an absolutely fantastic function - the one click staging environment.  This plugin is built to make it super easy to limit access to that button so that people don't accidentally overwrite the staging environment.
 
+WPEngine is a fantastic Wordpress hosting provider with an absolutely fantastic function - the one click staging environment.  This plugin is built to make it super easy to limit access to that button so that people don't accidentally overwrite the staging environment.
 
 == Installation ==
 
@@ -31,6 +32,9 @@ None yet.  This plugin is pretty self explanatory.
 
 
 == Changelog ==
+
+= 1.0.1 =
+* Updated descriptions
 
 = 1.0 =
 * Wrote plugin
