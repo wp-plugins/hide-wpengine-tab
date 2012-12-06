@@ -2,7 +2,7 @@
 /*
 Plugin Name: 		Hide WPEngine Tab
 Version: 			1.0
-Description: 		WPEngine is a fantastic hosting provider with a great function, one click staging environment.  This plugin is built to make it super easy to limit access to that button so that only select people can.
+Description: 		This plugin is built to make it super easy to limit access to WPengine's Access tab so that only select people can rebuild the staging environment.
 Author: 			Aaron Vanderzwan
 Author URI: 		http://www.aaronvanderzwan.com
 Text Domain: 		hide-wpengine-tab
