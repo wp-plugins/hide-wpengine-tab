@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: 		Hide WPEngine Tab
-Version:			1.1
+Version:			1.1.1
 Description: 		This plugin makes it super easy to limit access to the WP Engine tab.  This protects the staging environment and other WPE actions.
 Author:				Aaron Vanderzwan
 Author URI: 		http://www.aaronvanderzwan.com/
@@ -191,11 +191,11 @@ function hwpet_pass_settings_to_js() {
 	$hwpet_lock_message = get_option('hwpet_lock_message');
 	?>
 	<script type="text/javascript">
-	var HWPET_settings = {
+	HWPET_settings = {
 		lock: "<?= $hwpet_lock ?>",
 		locked_by:  "<?= $hwpet_locked_by ?>",
 		lock_date:  "<?= $hwpet_lock_date ?>",
-		lock_message: "<?= $hwpet_lock_message ?>"
+		lock_message: "<?= urlencode($hwpet_lock_message) ?>"
 	};
 	</script>
 	<?php

@@ -4,8 +4,8 @@ Contributors: Aaron Vanderzwan
 Donate link: http://www.aaronvanderzwan.com/
 Tags: wpengine, staging, hide, tab
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 1.1
+Tested up to: 3.5.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,9 @@ None yet.  This plugin is pretty self explanatory.
 
 
 == Changelog ==
+
+= 1.1.1 =
+* Added urlencoding so that special characters can be used in lock messages.
 
 = 1.1 =
 * Added ability to lock the staging environment so that it cannot be rebuild without unlocking. This is done by capturing the click on the "Create staging area" button and displaying a friendly message letting the user know it's locked, who locked it, and when.
