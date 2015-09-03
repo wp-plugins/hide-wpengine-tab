@@ -22,11 +22,11 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-define( 'HWPET_VERSION', 	'1.1.2' );
+define( 'HWPET_VERSION', 	'1.1.3' );
 define( 'HWPET_URL', 		plugins_url('', __FILE__) );
 
 // only run plugin in the admin interface
-if ( !is_admin() || !is_wpe() )
+if ( ! is_admin() || ! function_exists( 'is_wpe' ) || ! is_wpe() )
 	return false;
 
 

@@ -5,7 +5,7 @@ Donate link: http://www.aaronvanderzwan.com/
 Tags: wpengine, staging, hide, tab
 Requires at least: 3.0
 Tested up to: 4.3
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,9 @@ None yet.  Please ask questions if you have any.
 
 
 == Changelog ==
+
+= 1.1.3 =
+* Check for WPEngine is_wpe() function
 
 = 1.1.2 =
 * Updated to run on Wordpress 4.3
