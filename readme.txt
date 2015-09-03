@@ -4,8 +4,8 @@ Contributors: Aaron Vanderzwan
 Donate link: http://www.aaronvanderzwan.com/
 Tags: wpengine, staging, hide, tab
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 1.1.1
+Tested up to: 4.3
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,7 +25,7 @@ WPEngine is a fantastic Wordpress hosting provider with an absolutely fantastic 
 
 == Frequently Asked Questions ==
 
-None yet.  This plugin is pretty self explanatory.
+None yet.  Please ask questions if you have any.
 
 
 == Screenshots ==
@@ -34,6 +34,9 @@ None yet.  This plugin is pretty self explanatory.
 
 
 == Changelog ==
+
+= 1.1.2 =
+* Updated to run on Wordpress 4.3
 
 = 1.1.1 =
 * Added urlencoding so that special characters can be used in lock messages.

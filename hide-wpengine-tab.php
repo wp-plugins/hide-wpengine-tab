@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: 		Hide WPEngine Tab
-Version:			1.1.1
+Version:			1.1.2
 Description: 		This plugin makes it super easy to limit access to the WP Engine tab.  This protects the staging environment and other WPE actions.
 Author:				Aaron Vanderzwan
 Author URI: 		http://www.aaronvanderzwan.com/
@@ -22,11 +22,11 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-define( 'HWPET_VERSION', 	'1.1' );
+define( 'HWPET_VERSION', 	'1.1.2' );
 define( 'HWPET_URL', 		plugins_url('', __FILE__) );
 
 // only run plugin in the admin interface
-if ( !is_admin() )
+if ( !is_admin() || !is_wpe() )
 	return false;
 
 
